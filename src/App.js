@@ -1,15 +1,26 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          Channel470News
+          <form>
+            <label>
+              Input: 
+              <input type="text" name="name" />
+            </label>
+            <Button variant="outline-secondary" size = "lg">
+              Search
+            </Button>
+          </form>
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Input a query to search!
           </p>
           <a
             className="App-link"
@@ -17,7 +28,6 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
           </a>
         </header>
       </div>
@@ -26,3 +36,5 @@ class App extends Component {
 }
 
 export default App;
+
+//<img src={logo} className="App-logo" alt="logo" />
