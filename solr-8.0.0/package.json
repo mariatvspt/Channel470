@@ -1,0 +1,15 @@
+{
+  "name": "solr-8.0.0",
+  "version": "1.0.0",
+  "description": "Welcome to the Apache Solr project!\r -----------------------------------",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
