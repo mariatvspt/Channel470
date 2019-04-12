@@ -1,0 +1,36 @@
+    .SearchInput {
+        text-align: left;
+    }
+  
+  .SearchInputForm {
+    background-color: rgb(230, 236, 240);
+    min-height: 100vh;
+    margin-right: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: calc(2px + 2vmin);
+    color: grey;
+  }
+
+  .SearchInputLabel {
+      font-weight: normal;
+  }
+
+  .SearchInputButton {
+    color: white;
+    margin-top: 1%;
+    margin-right: 85%;
+    background-color: #3283AD;
+  }
+
+    .SearchInputBox {
+        margin-right: 75%;
+    }
+  
+  input[type="text"] {
+    color: black;
+  }
