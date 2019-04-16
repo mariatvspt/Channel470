@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap';
 import './Header.css';
 
 class Header extends Component {
 
   render() {
     return (
-      <div className="Header">
-        <header className="App-header">
-            Channel470News
+      <div>
+        <header className = "HeaderBorder">
         </header>
+        <div className="Header">
+          <header className="AppHeader">
+              Channel470News
+          </header>
+        </div>
       </div>
     );
   }

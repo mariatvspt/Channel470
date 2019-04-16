@@ -7,10 +7,17 @@
     height: 40vmin;
     pointer-events: none;
   } */
+
+  .HeaderBorder {
+    background-color: black;
+    height: 20px;
+    width: 100%;
+  }
   
-  .App-header {
+  .AppHeader {
     background-color: white;
-    min-height: 8vh;
+    height: 80px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -20,7 +27,7 @@
     padding: 10pt;
     color: #3283AD;
     font-weight: bold;
-    
+    text-align: center;
   }
   
   input[type="text"] {

@@ -1,0 +1,84 @@
+2019-04-16 06:25:34,442 main ERROR Unable to move file C:\Personal\Spring2019\CSCE 470\channel-470\solr-8.0.0\server\logs\solr.log to C:\Personal\Spring2019\CSCE 470\channel-470\solr-8.0.0\server\logs\solr.log.2: java.nio.file.FileSystemException C:\Personal\Spring2019\CSCE 470\channel-470\solr-8.0.0\server\logs\solr.log -> C:\Personal\Spring2019\CSCE 470\channel-470\solr-8.0.0\server\logs\solr.log.2: The process cannot access the file because it is being used by another process.
+
+2019-04-16 06:25:34,460 main ERROR Unable to delete file C:\Personal\Spring2019\CSCE 470\channel-470\solr-8.0.0\server\logs\solr.log: java.nio.file.FileSystemException C:\Personal\Spring2019\CSCE 470\channel-470\solr-8.0.0\server\logs\solr.log: The process cannot access the file because it is being used by another process.
+
+2019-04-16 06:25:34.598 INFO  (main) [   ] o.e.j.u.log Logging initialized @1585ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-04-16 06:25:34.890 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+Error binding ShutdownMonitor to port 6574: java.net.BindException: Address already in use: JVM_Bind
+2019-04-16 06:25:34.898 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_181-b13
+2019-04-16 06:25:34.946 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/Personal/Spring2019/CSCE%20470/channel-470/solr-8.0.0/server/contexts/] at interval 0
+2019-04-16 06:25:35.834 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-04-16 06:25:35.845 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-04-16 06:25:35.845 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-04-16 06:25:35.847 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2019-04-16 06:25:35.899 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2019-04-16 06:25:35.931 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-04-16 06:25:35.936 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.0.0
+2019-04-16 06:25:35.938 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in cloud mode on port 7574
+2019-04-16 06:25:35.938 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:/Personal/Spring2019/CSCE 470/channel-470/solr-8.0.0
+2019-04-16 06:25:35.938 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-04-16T06:25:35.938Z
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:220)
+	at org.eclipse.jetty.start.Main.start(Main.java:490)
+	at org.eclipse.jetty.start.Main.main(Main.java:77)
+Caused by: java.security.PrivilegedActionException: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:7574
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1511)
+	... 7 more
+Caused by: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:7574
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:346)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:308)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:394)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1572)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1512)
+	... 9 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:342)
+	... 17 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:220)
+	at org.eclipse.jetty.start.Main.start(Main.java:490)
+	at org.eclipse.jetty.start.Main.main(Main.java:77)
+Caused by: java.security.PrivilegedActionException: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:7574
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1511)
+	... 7 more
+Caused by: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:7574
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:346)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:308)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:394)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1572)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1512)
+	... 9 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:342)
+	... 17 more
+
+Usage: java -jar $JETTY_HOME/start.jar [options] [properties] [configs]
+       java -jar $JETTY_HOME/start.jar --help  # for more information

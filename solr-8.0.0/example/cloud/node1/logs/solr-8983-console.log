@@ -1,14 +1,42 @@
-2019-04-10 22:59:24.156 INFO  (main) [   ] o.e.j.u.log Logging initialized @5888ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-04-10 22:59:24.324 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
-2019-04-10 22:59:24.334 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_151-b12
-2019-04-10 22:59:24.367 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/gracefan/Documents/GitHub/Channel470/solr-8.0.0/server/contexts/] at interval 0
-2019-04-10 22:59:25.011 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
-2019-04-10 22:59:25.028 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
-2019-04-10 22:59:25.028 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
-2019-04-10 22:59:25.030 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
-2019-04-10 22:59:25.153 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
-2019-04-10 22:59:25.188 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
-2019-04-10 22:59:25.192 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.0.0
-2019-04-10 22:59:25.193 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in cloud mode on port 8983
-2019-04-10 22:59:25.193 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/gracefan/Documents/GitHub/Channel470/solr-8.0.0
-2019-04-10 22:59:25.193 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-04-10T22:59:25.193Z
+ERROR StatusLogger Unable to access file:///c/Personal/Spring2019/CSCE%20470/channel-470/solr-8.0.0/server/resources/log4j2.xml
+ java.io.FileNotFoundException: \c\Personal\Spring2019\CSCE 470\channel-470\solr-8.0.0\server\resources\log4j2.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at org.apache.logging.log4j.core.config.ConfigurationSource.fromUri(ConfigurationSource.java:247)
+	at org.apache.logging.log4j.core.config.ConfigurationFactory$Factory.getConfiguration(ConfigurationFactory.java:404)
+	at org.apache.logging.log4j.core.config.ConfigurationFactory$Factory.getConfiguration(ConfigurationFactory.java:346)
+	at org.apache.logging.log4j.core.config.ConfigurationFactory.getConfiguration(ConfigurationFactory.java:260)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:615)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:636)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:231)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:45)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:194)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:121)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:43)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:29)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:358)
+	at org.eclipse.jetty.util.log.Slf4jLog.<init>(Slf4jLog.java:38)
+	at org.eclipse.jetty.util.log.Slf4jLog.<init>(Slf4jLog.java:32)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.eclipse.jetty.util.log.Log.initialized(Log.java:178)
+	at org.eclipse.jetty.util.log.Log.getLogger(Log.java:311)
+	at org.eclipse.jetty.util.log.Log.getLogger(Log.java:301)
+	at org.eclipse.jetty.xml.XmlConfiguration.<clinit>(XmlConfiguration.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:220)
+	at org.eclipse.jetty.start.Main.start(Main.java:490)
+	at org.eclipse.jetty.start.Main.main(Main.java:77)
+ERROR StatusLogger Reconfiguration failed: No configuration found for '4d76f3f8' at 'null' in 'null'

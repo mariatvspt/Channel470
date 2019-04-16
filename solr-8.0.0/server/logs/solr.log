@@ -1,0 +1,391 @@
+2019-04-16 06:25:34.598 INFO  (main) [   ] o.e.j.u.log Logging initialized @1585ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-04-16 06:25:34.890 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-04-16 06:25:34.898 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_181-b13
+2019-04-16 06:25:34.946 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/Personal/Spring2019/CSCE%20470/channel-470/solr-8.0.0/server/contexts/] at interval 0
+2019-04-16 06:25:35.834 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-04-16 06:25:35.845 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-04-16 06:25:35.845 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-04-16 06:25:35.847 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2019-04-16 06:25:35.899 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2019-04-16 06:25:35.931 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-04-16 06:25:35.936 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.0.0
+2019-04-16 06:25:35.938 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in cloud mode on port 7574
+2019-04-16 06:25:35.938 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:/Personal/Spring2019/CSCE 470/channel-470/solr-8.0.0
+2019-04-16 06:25:35.938 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-04-16T06:25:35.938Z
+2019-04-16 06:25:35.965 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:/Personal/Spring2019/CSCE 470/channel-470/solr-8.0.0/server/solr
+2019-04-16 06:25:36.032 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:37.150 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:38.259 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:39.369 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:40.476 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:41.579 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:42.683 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:43.790 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:44.898 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:46.003 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:47.109 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:48.216 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:49.323 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:50.430 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:51.536 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:52.643 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:53.729 INFO  (qtp817348612-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1555395953426} status=0 QTime=64
+2019-04-16 06:25:53.751 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:53.800 INFO  (qtp817348612-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555395953426} status=0 QTime=135
+2019-04-16 06:25:53.850 INFO  (qtp817348612-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555395953426} status=0 QTime=39
+2019-04-16 06:25:54.856 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:55.959 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:57.065 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:58.168 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:25:59.277 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:26:00.381 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:26:01.492 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:26:02.595 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:26:03.698 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:26:04.802 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:26:05.909 WARN  (main-SendThread(localhost::9983)) [   ] o.a.z.ClientCnxn Session 0x0 for server localhost::9983, unexpected error, closing socket connection and attempting reconnect
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1021) ~[zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1064) [zookeeper-3.4.13.jar:3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03]
+2019-04-16 06:26:07.144 ERROR (main) [   ] o.a.s.s.SolrDispatchFilter Could not start Solr. Check solr/home property and the logs
+2019-04-16 06:26:07.289 ERROR (main) [   ] o.a.s.c.SolrCore null:org.apache.solr.common.SolrException: Error occurred while loading solr.xml from zookeeper
+	at org.apache.solr.servlet.SolrDispatchFilter.loadNodeConfig(SolrDispatchFilter.java:280)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:250)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:172)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:136)
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:750)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:744)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:368)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:46)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:192)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:505)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:151)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:180)
+	at org.eclipse.jetty.deploy.providers.WebAppProvider.fileAdded(WebAppProvider.java:453)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:64)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:610)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:529)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:392)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:313)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:150)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:579)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:240)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:138)
+	at org.eclipse.jetty.server.Server.start(Server.java:415)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1572)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1512)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1511)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:220)
+	at org.eclipse.jetty.start.Main.start(Main.java:490)
+	at org.eclipse.jetty.start.Main.main(Main.java:77)
+Caused by: org.apache.solr.common.SolrException: java.util.concurrent.TimeoutException: Could not connect to ZooKeeper localhost::9983 within 30000 ms
+	at org.apache.solr.common.cloud.SolrZkClient.<init>(SolrZkClient.java:201)
+	at org.apache.solr.common.cloud.SolrZkClient.<init>(SolrZkClient.java:126)
+	at org.apache.solr.common.cloud.SolrZkClient.<init>(SolrZkClient.java:121)
+	at org.apache.solr.common.cloud.SolrZkClient.<init>(SolrZkClient.java:108)
+	at org.apache.solr.servlet.SolrDispatchFilter.loadNodeConfig(SolrDispatchFilter.java:273)
+	... 50 more
+Caused by: java.util.concurrent.TimeoutException: Could not connect to ZooKeeper localhost::9983 within 30000 ms
+	at org.apache.solr.common.cloud.ConnectionManager.waitForConnected(ConnectionManager.java:250)
+	at org.apache.solr.common.cloud.SolrZkClient.<init>(SolrZkClient.java:193)
+	... 54 more
+
+2019-04-16 06:26:07.362 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@11c9af63{/solr,file:///C:/Personal/Spring2019/CSCE%20470/channel-470/solr-8.0.0/server/solr-webapp/webapp/,AVAILABLE}{C:\Personal\Spring2019\CSCE 470\channel-470\solr-8.0.0\server/solr-webapp/webapp}
+2019-04-16 06:26:07.366 WARN  (main) [   ] o.e.j.x.XmlConfiguration 
+java.security.PrivilegedActionException: null
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1511) [jetty-xml-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:220) [start.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.start.Main.start(Main.java:490) [start.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.start.Main.main(Main.java:77) [start.jar:9.4.14.v20181114]
+Caused by: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:7574
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:346) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:308) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:394) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1572) ~[jetty-xml-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1512) ~[jetty-xml-9.4.14.v20181114.jar:9.4.14.v20181114]
+	... 9 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:342) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:308) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:394) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1572) ~[jetty-xml-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1512) ~[jetty-xml-9.4.14.v20181114.jar:9.4.14.v20181114]
+	... 9 more
+2019-04-16 06:26:16.390 INFO  (qtp580718781-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=62
+2019-04-16 06:26:16.439 INFO  (qtp580718781-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=18
+2019-04-16 06:26:16.461 INFO  (qtp580718781-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=18
+2019-04-16 06:26:37.396 INFO  (qtp817348612-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1555395997017} status=0 QTime=0
+2019-04-16 06:26:37.473 INFO  (qtp817348612-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555395997018} status=0 QTime=76
+2019-04-16 06:26:37.521 INFO  (qtp817348612-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555395997018} status=0 QTime=38
+2019-04-16 06:27:16.579 INFO  (qtp580718781-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=47
+2019-04-16 06:27:16.660 INFO  (qtp580718781-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=72
+2019-04-16 06:27:16.717 INFO  (qtp580718781-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=48
+2019-04-16 06:27:46.286 INFO  (qtp817348612-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1555396066120} status=0 QTime=0
+2019-04-16 06:27:46.329 INFO  (qtp817348612-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555396066121} status=0 QTime=42
+2019-04-16 06:27:46.375 INFO  (qtp817348612-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555396066121} status=0 QTime=40
+2019-04-16 06:28:16.765 INFO  (qtp580718781-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=24
+2019-04-16 06:28:16.787 INFO  (qtp580718781-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=20
+2019-04-16 06:28:16.809 INFO  (qtp580718781-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=20
+2019-04-16 06:29:16.841 INFO  (qtp580718781-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=28
+2019-04-16 06:29:16.871 INFO  (qtp580718781-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=23
+2019-04-16 06:29:16.894 INFO  (qtp580718781-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=22
+2019-04-16 06:30:16.946 INFO  (qtp580718781-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=28
+2019-04-16 06:30:16.971 INFO  (qtp580718781-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=25
+2019-04-16 06:30:17.012 INFO  (qtp580718781-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=29
+2019-04-16 06:30:46.537 INFO  (qtp817348612-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1555396246329} status=0 QTime=1
+2019-04-16 06:30:46.599 INFO  (qtp817348612-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555396246330} status=0 QTime=55
+2019-04-16 06:30:46.659 INFO  (qtp817348612-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555396246330} status=0 QTime=55
+2019-04-16 06:30:51.677 INFO  (qtp817348612-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1555396246329} status=0 QTime=0
+2019-04-16 06:30:51.686 INFO  (qtp817348612-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={wt=json&_=1555396251660} status=0 QTime=1
+2019-04-16 06:30:51.780 INFO  (qtp817348612-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555396246330} status=0 QTime=95
+2019-04-16 06:30:53.508 INFO  (qtp817348612-37) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1555396246329} status=0 QTime=0
+2019-04-16 06:30:53.569 INFO  (qtp817348612-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/threads params={wt=json&_=1555396253493} status=0 QTime=54
+2019-04-16 06:30:53.635 INFO  (qtp817348612-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555396246330} status=0 QTime=128
+2019-04-16 06:30:55.960 INFO  (qtp817348612-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1555396246329} status=0 QTime=0
+2019-04-16 06:30:55.961 INFO  (qtp817348612-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1555396246329} status=0 QTime=0
+2019-04-16 06:30:56.003 INFO  (qtp817348612-37) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555396246330} status=0 QTime=43
+2019-04-16 06:30:57.158 INFO  (qtp817348612-37) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1555396246329} status=0 QTime=0
+2019-04-16 06:30:57.161 INFO  (qtp817348612-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1555396257151&since=0} status=0 QTime=1
+2019-04-16 06:30:57.203 INFO  (qtp817348612-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555396246330} status=0 QTime=47
+2019-04-16 06:30:58.095 INFO  (qtp817348612-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1555396246329} status=0 QTime=0
+2019-04-16 06:30:58.167 INFO  (qtp817348612-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555396246330} status=0 QTime=72
+2019-04-16 06:30:58.211 INFO  (qtp817348612-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1555396246330} status=0 QTime=40
+2019-04-16 06:31:17.079 INFO  (qtp580718781-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=57
+2019-04-16 06:31:17.136 INFO  (qtp580718781-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=51
+2019-04-16 06:31:17.197 INFO  (qtp580718781-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=54
+2019-04-16 06:32:17.262 INFO  (qtp580718781-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=51
+2019-04-16 06:32:17.307 INFO  (qtp580718781-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=38
+2019-04-16 06:32:17.326 INFO  (qtp580718781-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/metrics params={wt=javabin&version=2&key=solr.jvm:os.processCpuLoad&key=solr.node:CONTAINER.fs.coreRoot.usableSpace&key=solr.jvm:os.systemLoadAverage&key=solr.jvm:memory.heap.used} status=0 QTime=19

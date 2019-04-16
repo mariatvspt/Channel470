@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #eaeaea
+
 }
 
 /* .App-logo {
@@ -8,13 +10,13 @@
   pointer-events: none;
 } */
 
-input[type="text"] {
+/* input[type="text"] {
   color: black;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 /* @keyframes App-logo-spin {
   from {
