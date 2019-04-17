@@ -9,7 +9,7 @@ class Header extends Component {
       <div>
         <header className = "HeaderBorder">
         </header>
-          <header className="AppHeader">
+        <header className="AppHeader">
               Channel 470 News
         </header>
       </div>

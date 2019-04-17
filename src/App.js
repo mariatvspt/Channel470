@@ -22,10 +22,10 @@ class App extends Component {
     return (
       <div className = "App">
         <Header />
-        <SectionTabs />
-        {/* <SolrConnector searchParams={this.state.searchParams}>
+        <SectionTabs/>
+        <SolrConnector searchParams={this.state.searchParams}>
           <SearchInput doSearch={this.doSearch.bind(this)} />
-        </SolrConnector> */}
+        </SolrConnector>
       </div>
     );
   }

@@ -1,16 +1,13 @@
     .SearchInputForm {
-    background-color: rgb(230, 236, 240);
-    /* min-height: 100vh; */
-    /* margin-right: 50%; */
-    /* display: flex; */
     flex-direction: column;
     align-items: left;
     justify-content: center;
     font-family: Helvetica, sans-serif;
     padding-left: 20pt;
-    height: 25%;
+    height: 60px;
+    top: 10pt;
     font-size: calc(2px + 2vmin);
-    color: grey;
+    position: relative;
   }
 
   .SearchInputLabel {
@@ -20,13 +17,22 @@
   .SearchInputButton {
     align-items: left;
     color: white;
-    width: 10%;
-    height: 5%;
+    width: 50px;
+    height: 60px;
+    position: relative;
     background-color: black;
   }
 
   .SearchInputBox {
-      margin-right: 75%;
+    width: 300px;
+    height: 60px;
+    position: relative;
+  }
+
+  .SearchInputResults {
+    position: absolute;
+    top: 500px;
+    left: 20px;
   }
   
   input[type="text"] {

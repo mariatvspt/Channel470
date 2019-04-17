@@ -9,30 +9,35 @@
 
   .HeaderBorder {
     background-color: black;
-    height: 20px;
+    height: 20pt;
     width: 100%;
+    
   }
   
   .AppHeader {
     background-color: white;
-    height: 80px;
+    height: 140px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    font-size: calc(30px + 2vmin);
-    padding: 10pt;
-    margin: 20pt;
+    font-size: calc(50px + 2vmin);
+    /* padding: 10pt; */
+    margin-top: 15pt;
+    margin-bottom: 2.5pt;
+    position: relative;
+    left: 20pt;
     font-family: 'Cimbrian';
     color: black;
     font-weight: bold;
     text-align: center;
+    
   }
   
-  input[type="text"] {
+  /* input[type="text"] {
     color: black;
-  }
+  } */
   
   /* .App-link {
     color: #61dafb;

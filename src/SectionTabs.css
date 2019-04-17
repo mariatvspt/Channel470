@@ -1,6 +1,11 @@
 .SectionTabs {
     background-color: white;
     text-align: center;
+    position: relative;
+    left: 20pt;
+    top: 0pt;
+    margin-right: 20pt;
+    margin-bottom: 10pt;
 }
 .NPRTab {
     background-color: white;
