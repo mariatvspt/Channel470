@@ -26,9 +26,6 @@ class SearchInput extends Component {
     return (
       <div className="SearchInput">
           <form className="SearchInputForm" onSubmit={this.onSubmit.bind(this)}>
-            <label className="SearchInputLabel">
-              Input a query:
-            </label>
             <input className="SearchInputBox" type="text" value = {this.state.query} name="name" onChange={e => {this.setState({ query: e.target.value })}} />
             <Button className = "SearchInputButton" variant="outline-secondary" size = "lg" type="submit">
               Search

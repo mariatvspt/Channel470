@@ -1,0 +1,28 @@
+.SectionTabs {
+    background-color: white;
+    text-align: center;
+}
+.NPRTab {
+    background-color: white;
+    color: black;
+}
+.CNNTab {
+    background-color: white;
+    color: black;
+}
+.NBCTab {
+    background-color: white;
+    color: black;
+}
+.NYTimesTab {
+    background-color: white;
+    color: black;
+}
+.FoxTimesTab {
+    background-color: white;
+    color: black;
+}
+.OthersTab {
+    background-color: white;
+    color: black;
+}

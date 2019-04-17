@@ -1,12 +1,11 @@
-.Header {
-    text-align: left;
-}
-  
-  /* .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 40vmin;
-    pointer-events: none;
-  } */
+  @font-face {
+    font-family: 'Cimbrian';
+    font-style: normal;
+    font-weight: normal;
+    src:
+      local('Cimbrian'),
+      url('./fonts/Cimbrian.ttf') format('truetype');
+  }
 
   .HeaderBorder {
     background-color: black;
@@ -22,10 +21,11 @@
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    font-family: Helvetica, sans-serif;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(30px + 2vmin);
     padding: 10pt;
-    color: #3283AD;
+    margin: 20pt;
+    font-family: 'Cimbrian';
+    color: black;
     font-weight: bold;
     text-align: center;
   }
