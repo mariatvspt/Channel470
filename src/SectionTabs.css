@@ -1,33 +1,60 @@
+@font-face {
+    font-family: 'Helvetica Neue Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue Bold'), url('./fonts/HelveticaNeueBold.woff') format('woff');
+    }
 .SectionTabs {
     background-color: white;
     text-align: center;
+    justify-content: center;
     position: relative;
     left: 20pt;
     top: 0pt;
     margin-right: 20pt;
     margin-bottom: 10pt;
+    height: 50pt;
+    font-family: 'Helvetica Neue Bold';
 }
 .NPRTab {
     background-color: white;
     color: black;
+    margin-left : 10pt;
+    margin-right : 10pt;
+    margin-top: 5pt;
 }
 .CNNTab {
     background-color: white;
     color: black;
+    margin-left : 10pt;
+    margin-right : 10pt;
+    margin-top: 5pt;
 }
 .NBCTab {
     background-color: white;
     color: black;
+    margin-left : 10pt;
+    margin-right : 10pt;
+    margin-top: 5pt;
 }
 .NYTimesTab {
     background-color: white;
     color: black;
+    margin-left : 10pt;
+    margin-right : 10pt;
+    margin-top: 5pt;
 }
 .FoxTimesTab {
     background-color: white;
     color: black;
+    margin-left : 10pt;
+    margin-right : 10pt;
+    margin-top: 5pt;
 }
 .OthersTab {
     background-color: white;
     color: black;
+    margin-left : 10pt;
+    margin-right : 10pt;
+    margin-top: 5pt;
 }

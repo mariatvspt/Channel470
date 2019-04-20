@@ -1,13 +1,28 @@
-    .SearchInputForm {
+ @font-face {
+    font-family: 'Helvetica Neue Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue Bold'), url('./fonts/HelveticaNeueBold.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Helvetica 65 Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 65 Medium'), url('./fonts/HelveticaNeue-Medium.woff') format('woff');
+  }
+  
+  .SearchInputForm {
     flex-direction: column;
     align-items: left;
     justify-content: center;
     font-family: Helvetica, sans-serif;
     padding-left: 20pt;
-    height: 60px;
+    /* height: 60px; */
     top: 10pt;
     font-size: calc(2px + 2vmin);
     position: relative;
+    font-family: 'Helvetica 65 Medium';
   }
 
   .SearchInputLabel {
@@ -17,10 +32,18 @@
   .SearchInputButton {
     align-items: left;
     color: white;
-    width: 50px;
-    height: 60px;
+    width: 60px;
+    height: 59.1px;
+    top: -1pt;
     position: relative;
-    background-color: black;
+  }
+  .SearchLogo {
+    position: absolute;
+    width: 60px;
+    height: 59.1px;
+    left: -1pt;
+    top: -1pt;
+    background-color: white;
   }
 
   .SearchInputBox {
@@ -29,10 +52,45 @@
     position: relative;
   }
 
-  .SearchInputResults {
-    position: absolute;
-    top: 500px;
-    left: 20px;
+  .TrendingTopicsLabel {
+    position: relative;
+    top: 60pt;
+    left: 20pt;
+    font-family: 'Helvetica Neue Bold';
+    font-size: 11pt;
+  }
+
+  .TrumpButton {
+    margin-top: 10pt;
+    background-color: black;
+    color: white;
+    margin-right: 20pt;
+  }
+
+  .ClintonButton {
+    margin-top: 10pt;
+    background-color: black;
+    color: white;
+    margin-left: 10pt;
+    margin-right: 10pt;
+  }
+
+  .SandersButton {
+    margin-top: 10pt;
+    background-color: black;
+    color: white;
+    margin-left: 20pt;
+    margin-right: 10pt;
+  }
+
+  .BarGraph {
+    position: relative;
+    justify-content: center;
+    background-color: white;
+    height: 50%;
+    width: 800pt;
+    left: 370pt;
+    top: -90pt;
   }
   
   input[type="text"] {

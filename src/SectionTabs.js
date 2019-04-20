@@ -9,6 +9,7 @@ class SectionTabs extends Component {
     return (
       <div className = "SectionTabs">
         <Button className = "NPRTab" variant="outline-secondary" size = "lg">
+        
         NPR
         </Button>
         <Button className = "CNNTab" variant="outline-secondary" size = "lg">
